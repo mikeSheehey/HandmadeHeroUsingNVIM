@@ -5,4 +5,5 @@ This repo is what I will be using to host my journey through the Handmade Hero c
 
 18MAR26 - A concern I have for this project is what has changed since the start of the series is almost ten years old. Even going throught the first episode the first WinMain funtion has been changed and the original dev site hosted from microsoft (MSDN) doesnt appear to exist anymore and now falls under Microsoft learn. There will probably be a lot of adapting to make some of the practices work. 
 <img width="668" height="178" alt="image" src="https://github.com/user-attachments/assets/53253b2b-3922-411b-a3a8-f8899655825a" />
+
 First thing to notice, the "in" on the syntax for WinMain is used to indicate information is being passed to Microsoft's OS and if there was an "out" it would be giving something back. This notation shows direction that could be processed in some other systems but should not be included when compiling with gcc. The random letters in front of our parameters "HINSTANCE" represents hungarian notation that was adopted to help describe the objects being used when programming. Casey finds them useless. 
