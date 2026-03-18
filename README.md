@@ -7,3 +7,5 @@ This repo is what I will be using to host my journey through the Handmade Hero c
 <img width="668" height="178" alt="image" src="https://github.com/user-attachments/assets/53253b2b-3922-411b-a3a8-f8899655825a" />
 
 First thing to notice, the "in" on the syntax for WinMain is used to indicate information is being passed to Microsoft's OS and if there was an "out" it would be giving something back. This notation shows direction that could be processed in some other systems but should not be included when compiling with gcc. The random letters in front of our parameters "HINSTANCE" represents hungarian notation that was adopted to help describe the objects being used when programming. Casey finds them useless. 
+
+First mistake from my end is that I cant compile with gcc or use WSL (without pain in the ass workarounds) if I am dealing with Windows machine dependent headers "Windows.h" so I am going to take a detour and figure out how to install Neovim natively. 
