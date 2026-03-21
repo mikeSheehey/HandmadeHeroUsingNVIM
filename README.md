@@ -17,5 +17,6 @@ After a bit of research I think the best solution will be to use Mingw for our b
 21MAR25 - Ive got a test program that compiled with no errors and executed correctly so were back in business. 
 <img width="900" height="126" alt="image" src="https://github.com/user-attachments/assets/5399900c-788b-4715-9c74-bcd1923849de" />
 <img width="737" height="333" alt="image" src="https://github.com/user-attachments/assets/4d210c8b-d529-43b5-8e52-81890d83476e" />
+
 Today I will be starting to work through the intro C series since I am not too familiar with the language. 
 
