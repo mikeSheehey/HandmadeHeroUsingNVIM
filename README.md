@@ -11,3 +11,5 @@ First thing to notice, the "in" on the syntax for WinMain is used to indicate in
 First mistake from my end is that I cant compile with gcc or use WSL (without pain in the ass workarounds) if I am dealing with Windows machine dependent headers "Windows.h" so I am going to take a detour and figure out how to install Neovim natively. 
 
 After a bit of research I think the best solution will be to use Mingw for our builds. It looks like the modern version is not limiting. 
+
+20MAR25 - So after a lot of searching there is a few ways to go about working in nvim and building in Windows. The best way I think I have found and will run with is to download VisualStudio so I have access to the powershell developer tools and then can compile there and as for NVIM I dont necessarily need to be in Linux. I have ditched WSL and install NVIM on Windows using a package manager called Chocolatey. Tomorrow i'll give a small "Hello World" program a try and then if all goes well ill continue Casey's series like that. 
