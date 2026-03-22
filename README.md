@@ -18,5 +18,7 @@ After a bit of research I think the best solution will be to use Mingw for our b
 <img width="900" height="126" alt="image" src="https://github.com/user-attachments/assets/5399900c-788b-4715-9c74-bcd1923849de" />
 <img width="737" height="333" alt="image" src="https://github.com/user-attachments/assets/4d210c8b-d529-43b5-8e52-81890d83476e" />
 
-Today I will be starting to work through the intro C series since I am not too familiar with the language. 
+Today I will be starting to work through the intro C series since I am not too familiar with the language. When explaining more VS essentials we wrote a funtion that included a Windows funtion called OutputDebugStringA(). When running this I didn't see any output in our powershell window and realized that this execution wouldn't contain output from the debugger. I can debug in VS but if I dont want to open VS everytime I debug I can use a sysinternals tool (Dbgview.exe) to display the debug buffer. 
+<img width="701" height="141" alt="image" src="https://github.com/user-attachments/assets/25eccf5c-6d05-46d9-b8a7-3302d5aa7d3c" />
+
 
