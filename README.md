@@ -21,4 +21,10 @@ After a bit of research I think the best solution will be to use Mingw for our b
 Today I will be starting to work through the intro C series since I am not too familiar with the language. When explaining more VS essentials we wrote a funtion that included a Windows funtion called OutputDebugStringA(). When running this I didn't see any output in our powershell window and realized that this execution wouldn't contain output from the debugger. I can debug in VS but if I dont want to open VS everytime I debug I can use a sysinternals tool (Dbgview.exe) to display the debug buffer. 
 <img width="701" height="141" alt="image" src="https://github.com/user-attachments/assets/25eccf5c-6d05-46d9-b8a7-3302d5aa7d3c" />
 
+<<<<<<< HEAD
 17MAY25 - Starting day 002 off with learning how the Visual Studio debugger functions. So far we are learning a beginner friendly way to set break points in the debugger mode so that when the program is ran it will halt everything being executed at that given breakpoint. Had to move back to day 001 because I needed to learn VS basics. It looks like I will be needing to use VS more than anticipated just for debugging tools but we'll see if Casey has a different approach when switching to EMACS. More issues...Microsoft has settings for its linker and if you start with an empty project it sets the linker to console. this can be changed through project > properties > linker > system > subsystem and setting to windows instead of console. After this I got a clean build.    
+=======
+15MAY25 -
+
+
+>>>>>>> d4134cbad720f67c9cf44d67374ed2c39f1ab243
